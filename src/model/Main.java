@@ -50,17 +50,6 @@ public class Main {
 
             System.out.println("PricedItem: " + printed.getPrice());
 
-            //error validation
-            BookBase invalid = new PrintedBook(
-                    0,
-                    "",
-                    "",
-                    fiction,
-                    -5,
-                    0
-            );
-            service.addBook(invalid);
-
         } catch (InvalidInputException e) {
             System.out.println("Validation failed: " + e.getMessage());
 
@@ -74,6 +63,23 @@ public class Main {
             } catch (ResourceNotFoundException e) {
                 System.out.println("Expected error: " + e.getMessage());
             }
+        }
+
+        try{
+            //error validation
+            BookBase invalid = new PrintedBook(
+                    0,
+                    "",
+                    "",
+                    fiction,
+                    -5,
+                    0
+            );
+            service.addBook(invalid);
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
         }
 
 
