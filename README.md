@@ -110,7 +110,8 @@ Run:
 Screenshots
 
 <img width="1406" height="366" alt="db" src="https://github.com/user-attachments/assets/7120fcb6-7607-4a81-8564-13d9c2866121" />
-<img width="427" height="165" alt="validationerror" src="https://github.com/user-attachments/assets/ffb9fde2-0ea9-4563-aff7-5bfa95eea077" />
+<img width="420" height="363" alt="image" src="https://github.com/user-attachments/assets/64d4cb99-4e68-4424-9a52-25fee492c83d" />
+
 
 What i learned:
 Working with JDBC and transactions
